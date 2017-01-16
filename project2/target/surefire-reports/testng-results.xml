@@ -1,0 +1,1489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="85" passed="85">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="280660" started-at="2016-12-09T09:11:30Z" finished-at="2016-12-09T09:16:10Z">
+    <groups>
+    </groups>
+    <test name="Regression" duration-ms="280660" started-at="2016-12-09T09:11:30Z" finished-at="2016-12-09T09:16:10Z">
+      <class name="test.usual.LandingPage7Test">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test.usual.LandingPage7Test@6537cf78]" name="beforeClass" is-config="true" duration-ms="3088" started-at="2016-12-09T11:15:09Z" finished-at="2016-12-09T11:15:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.usual.LandingPage7Test@6537cf78]" name="beforeMethod" is-config="true" duration-ms="3" started-at="2016-12-09T11:15:12Z" finished-at="2016-12-09T11:15:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="canRegisterWithUsualWithValidCredentialsAnd100Bonus()[pri:0, instance:test.usual.LandingPage7Test@6537cf78]" name="canRegisterWithUsualWithValidCredentialsAnd100Bonus" duration-ms="8138" started-at="2016-12-09T11:15:12Z" finished-at="2016-12-09T11:15:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canRegisterWithUsualWithValidCredentialsAnd100Bonus -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.usual.LandingPage7Test@6537cf78]" name="afterMethod" is-config="true" duration-ms="1154" started-at="2016-12-09T11:15:20Z" finished-at="2016-12-09T11:15:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tryRegisterWithInValidCredentials(java.lang.String, java.lang.String)[pri:0, instance:test.usual.LandingPage7Test@6537cf78]" name="tryRegisterWithInValidCredentials" duration-ms="1307" started-at="2016-12-09T11:15:21Z" data-provider="inValidCredentials" finished-at="2016-12-09T11:15:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dt+96607]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[u(984]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tryRegisterWithInValidCredentials -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.usual.LandingPage7Test@6537cf78]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-12-09T11:15:21Z" finished-at="2016-12-09T11:15:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.usual.LandingPage7Test@6537cf78]" name="afterMethod" is-config="true" duration-ms="48" started-at="2016-12-09T11:15:23Z" finished-at="2016-12-09T11:15:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tryRegisterWithInValidCredentials(java.lang.String, java.lang.String)[pri:0, instance:test.usual.LandingPage7Test@6537cf78]" name="tryRegisterWithInValidCredentials" duration-ms="951" started-at="2016-12-09T11:15:23Z" data-provider="inValidCredentials" finished-at="2016-12-09T11:15:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[eICRBO]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[688177]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tryRegisterWithInValidCredentials -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.usual.LandingPage7Test@6537cf78]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-12-09T11:15:23Z" finished-at="2016-12-09T11:15:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.usual.LandingPage7Test@6537cf78]" name="afterMethod" is-config="true" duration-ms="45" started-at="2016-12-09T11:15:24Z" finished-at="2016-12-09T11:15:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="canRegisterWithUsualWithValidCredentialsAndCashBack()[pri:0, instance:test.usual.LandingPage7Test@6537cf78]" name="canRegisterWithUsualWithValidCredentialsAndCashBack" duration-ms="2249" started-at="2016-12-09T11:15:24Z" finished-at="2016-12-09T11:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canRegisterWithUsualWithValidCredentialsAndCashBack -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.usual.LandingPage7Test@6537cf78]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-12-09T11:15:24Z" finished-at="2016-12-09T11:15:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.usual.LandingPage7Test@6537cf78]" name="afterMethod" is-config="true" duration-ms="47" started-at="2016-12-09T11:15:26Z" finished-at="2016-12-09T11:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="canRegisterWithUsualWithValidCredentialsWithOutBonus()[pri:0, instance:test.usual.LandingPage7Test@6537cf78]" name="canRegisterWithUsualWithValidCredentialsWithOutBonus" duration-ms="1929" started-at="2016-12-09T11:15:26Z" finished-at="2016-12-09T11:15:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canRegisterWithUsualWithValidCredentialsWithOutBonus -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.usual.LandingPage7Test@6537cf78]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-12-09T11:15:26Z" finished-at="2016-12-09T11:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.usual.LandingPage7Test@6537cf78]" name="afterMethod" is-config="true" duration-ms="353" started-at="2016-12-09T11:15:28Z" finished-at="2016-12-09T11:15:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.usual.LandingPage7Test@6537cf78]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2016-12-09T11:15:28Z" finished-at="2016-12-09T11:15:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="tryRegisterWithEmptyFields()[pri:0, instance:test.usual.LandingPage7Test@6537cf78]" name="tryRegisterWithEmptyFields" duration-ms="982" started-at="2016-12-09T11:15:28Z" finished-at="2016-12-09T11:15:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tryRegisterWithEmptyFields -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.usual.LandingPage7Test@6537cf78]" name="afterMethod" is-config="true" duration-ms="61" started-at="2016-12-09T11:15:29Z" finished-at="2016-12-09T11:15:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.usual.LandingPage7Test@6537cf78]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-12-09T11:15:29Z" finished-at="2016-12-09T11:15:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="tryRegisterWithOutAgree()[pri:0, instance:test.usual.LandingPage7Test@6537cf78]" name="tryRegisterWithOutAgree" duration-ms="1045" started-at="2016-12-09T11:15:29Z" finished-at="2016-12-09T11:15:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tryRegisterWithOutAgree -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.usual.LandingPage7Test@6537cf78]" name="afterMethod" is-config="true" duration-ms="43" started-at="2016-12-09T11:15:30Z" finished-at="2016-12-09T11:15:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:test.usual.LandingPage7Test@6537cf78]" name="afterClass" is-config="true" duration-ms="877" started-at="2016-12-09T11:15:30Z" finished-at="2016-12-09T11:15:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- test.usual.LandingPage7Test -->
+      <class name="test.usual.LandingPage9Test">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test.usual.LandingPage9Test@4157f54e]" name="beforeClass" is-config="true" duration-ms="3153" started-at="2016-12-09T11:15:50Z" finished-at="2016-12-09T11:15:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.usual.LandingPage9Test@4157f54e]" name="beforeMethod" is-config="true" duration-ms="3" started-at="2016-12-09T11:15:53Z" finished-at="2016-12-09T11:15:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="canOpenLandingPage9()[pri:0, instance:test.usual.LandingPage9Test@4157f54e]" name="canOpenLandingPage9" duration-ms="2498" started-at="2016-12-09T11:15:53Z" finished-at="2016-12-09T11:15:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canOpenLandingPage9 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.usual.LandingPage9Test@4157f54e]" name="afterMethod" is-config="true" duration-ms="41" started-at="2016-12-09T11:15:55Z" finished-at="2016-12-09T11:15:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="canRegisterUsualWithCurrencyRub()[pri:0, instance:test.usual.LandingPage9Test@4157f54e]" name="canRegisterUsualWithCurrencyRub" duration-ms="7257" started-at="2016-12-09T11:15:56Z" finished-at="2016-12-09T11:16:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canRegisterUsualWithCurrencyRub -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.usual.LandingPage9Test@4157f54e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-12-09T11:15:56Z" finished-at="2016-12-09T11:15:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.usual.LandingPage9Test@4157f54e]" name="afterMethod" is-config="true" duration-ms="41" started-at="2016-12-09T11:16:03Z" finished-at="2016-12-09T11:16:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.usual.LandingPage9Test@4157f54e]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2016-12-09T11:16:03Z" finished-at="2016-12-09T11:16:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="tryRegisterWithInValidCredentials(java.lang.String, java.lang.String)[pri:0, instance:test.usual.LandingPage9Test@4157f54e]" name="tryRegisterWithInValidCredentials" duration-ms="938" started-at="2016-12-09T11:16:03Z" data-provider="wrongEmailAndPassword" finished-at="2016-12-09T11:16:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dt+37916]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[l3s;+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tryRegisterWithInValidCredentials -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.usual.LandingPage9Test@4157f54e]" name="afterMethod" is-config="true" duration-ms="33" started-at="2016-12-09T11:16:04Z" finished-at="2016-12-09T11:16:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tryRegisterWithInValidCredentials(java.lang.String, java.lang.String)[pri:0, instance:test.usual.LandingPage9Test@4157f54e]" name="tryRegisterWithInValidCredentials" duration-ms="909" started-at="2016-12-09T11:16:04Z" data-provider="wrongEmailAndPassword" finished-at="2016-12-09T11:16:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kObPio]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[079537]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tryRegisterWithInValidCredentials -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.usual.LandingPage9Test@4157f54e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-12-09T11:16:04Z" finished-at="2016-12-09T11:16:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.usual.LandingPage9Test@4157f54e]" name="afterMethod" is-config="true" duration-ms="48" started-at="2016-12-09T11:16:05Z" finished-at="2016-12-09T11:16:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="canRegisterUsualWithCurrencyUsdAnd100Bonus()[pri:0, instance:test.usual.LandingPage9Test@4157f54e]" name="canRegisterUsualWithCurrencyUsdAnd100Bonus" duration-ms="2898" started-at="2016-12-09T11:16:05Z" finished-at="2016-12-09T11:16:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canRegisterUsualWithCurrencyUsdAnd100Bonus -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.usual.LandingPage9Test@4157f54e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-12-09T11:16:05Z" finished-at="2016-12-09T11:16:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.usual.LandingPage9Test@4157f54e]" name="afterMethod" is-config="true" duration-ms="39" started-at="2016-12-09T11:16:08Z" finished-at="2016-12-09T11:16:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.usual.LandingPage9Test@4157f54e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-12-09T11:16:08Z" finished-at="2016-12-09T11:16:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="tryRegisterWithEmptyFields()[pri:0, instance:test.usual.LandingPage9Test@4157f54e]" name="tryRegisterWithEmptyFields" duration-ms="907" started-at="2016-12-09T11:16:08Z" finished-at="2016-12-09T11:16:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tryRegisterWithEmptyFields -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.usual.LandingPage9Test@4157f54e]" name="afterMethod" is-config="true" duration-ms="34" started-at="2016-12-09T11:16:09Z" finished-at="2016-12-09T11:16:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tryRegisterWithOutAgree()[pri:0, instance:test.usual.LandingPage9Test@4157f54e]" name="tryRegisterWithOutAgree" duration-ms="867" started-at="2016-12-09T11:16:09Z" finished-at="2016-12-09T11:16:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tryRegisterWithOutAgree -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.usual.LandingPage9Test@4157f54e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-12-09T11:16:09Z" finished-at="2016-12-09T11:16:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.usual.LandingPage9Test@4157f54e]" name="afterMethod" is-config="true" duration-ms="56" started-at="2016-12-09T11:16:09Z" finished-at="2016-12-09T11:16:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:test.usual.LandingPage9Test@4157f54e]" name="afterClass" is-config="true" duration-ms="737" started-at="2016-12-09T11:16:10Z" finished-at="2016-12-09T11:16:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- test.usual.LandingPage9Test -->
+      <class name="test.usual.LandingPage12Test">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test.usual.LandingPage12Test@34b7bfc0]" name="beforeClass" is-config="true" duration-ms="2990" started-at="2016-12-09T11:12:20Z" finished-at="2016-12-09T11:12:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.usual.LandingPage12Test@34b7bfc0]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2016-12-09T11:12:23Z" finished-at="2016-12-09T11:12:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="canRegisterWithUsualRubWithValidCredentialsAnd100Bonus()[pri:0, instance:test.usual.LandingPage12Test@34b7bfc0]" name="canRegisterWithUsualRubWithValidCredentialsAnd100Bonus" duration-ms="7299" started-at="2016-12-09T11:12:23Z" finished-at="2016-12-09T11:12:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canRegisterWithUsualRubWithValidCredentialsAnd100Bonus -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.usual.LandingPage12Test@34b7bfc0]" name="afterMethod" is-config="true" duration-ms="54" started-at="2016-12-09T11:12:30Z" finished-at="2016-12-09T11:12:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.usual.LandingPage12Test@34b7bfc0]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-12-09T11:12:30Z" finished-at="2016-12-09T11:12:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="tryRegisterWithInValidCredentials(java.lang.String, java.lang.String)[pri:0, instance:test.usual.LandingPage12Test@34b7bfc0]" name="tryRegisterWithInValidCredentials" duration-ms="1347" started-at="2016-12-09T11:12:30Z" data-provider="inValidCredentials" finished-at="2016-12-09T11:12:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dt+54911]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[o1"9.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tryRegisterWithInValidCredentials -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.usual.LandingPage12Test@34b7bfc0]" name="afterMethod" is-config="true" duration-ms="48" started-at="2016-12-09T11:12:32Z" finished-at="2016-12-09T11:12:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tryRegisterWithInValidCredentials(java.lang.String, java.lang.String)[pri:0, instance:test.usual.LandingPage12Test@34b7bfc0]" name="tryRegisterWithInValidCredentials" duration-ms="981" started-at="2016-12-09T11:12:32Z" data-provider="inValidCredentials" finished-at="2016-12-09T11:12:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Lqmacr]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[257152]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tryRegisterWithInValidCredentials -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.usual.LandingPage12Test@34b7bfc0]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-12-09T11:12:32Z" finished-at="2016-12-09T11:12:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.usual.LandingPage12Test@34b7bfc0]" name="afterMethod" is-config="true" duration-ms="55" started-at="2016-12-09T11:12:33Z" finished-at="2016-12-09T11:12:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.usual.LandingPage12Test@34b7bfc0]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2016-12-09T11:12:33Z" finished-at="2016-12-09T11:12:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="canRegisterWithUsualUsdWithValidCredentialsAnd100Bonus()[pri:0, instance:test.usual.LandingPage12Test@34b7bfc0]" name="canRegisterWithUsualUsdWithValidCredentialsAnd100Bonus" duration-ms="2827" started-at="2016-12-09T11:12:33Z" finished-at="2016-12-09T11:12:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canRegisterWithUsualUsdWithValidCredentialsAnd100Bonus -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.usual.LandingPage12Test@34b7bfc0]" name="afterMethod" is-config="true" duration-ms="44" started-at="2016-12-09T11:12:36Z" finished-at="2016-12-09T11:12:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="canRegisterWithUsualWithValidCredentialsWithOutBonus()[pri:0, instance:test.usual.LandingPage12Test@34b7bfc0]" name="canRegisterWithUsualWithValidCredentialsWithOutBonus" duration-ms="1817" started-at="2016-12-09T11:12:36Z" finished-at="2016-12-09T11:12:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canRegisterWithUsualWithValidCredentialsWithOutBonus -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.usual.LandingPage12Test@34b7bfc0]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-12-09T11:12:36Z" finished-at="2016-12-09T11:12:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.usual.LandingPage12Test@34b7bfc0]" name="afterMethod" is-config="true" duration-ms="325" started-at="2016-12-09T11:12:37Z" finished-at="2016-12-09T11:12:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tryRegisterWithEmptyFields()[pri:0, instance:test.usual.LandingPage12Test@34b7bfc0]" name="tryRegisterWithEmptyFields" duration-ms="1072" started-at="2016-12-09T11:12:38Z" finished-at="2016-12-09T11:12:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tryRegisterWithEmptyFields -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.usual.LandingPage12Test@34b7bfc0]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-12-09T11:12:38Z" finished-at="2016-12-09T11:12:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.usual.LandingPage12Test@34b7bfc0]" name="afterMethod" is-config="true" duration-ms="61" started-at="2016-12-09T11:12:39Z" finished-at="2016-12-09T11:12:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tryRegisterWithOutAgree()[pri:0, instance:test.usual.LandingPage12Test@34b7bfc0]" name="tryRegisterWithOutAgree" duration-ms="1109" started-at="2016-12-09T11:12:39Z" finished-at="2016-12-09T11:12:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tryRegisterWithOutAgree -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.usual.LandingPage12Test@34b7bfc0]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-12-09T11:12:39Z" finished-at="2016-12-09T11:12:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.usual.LandingPage12Test@34b7bfc0]" name="afterMethod" is-config="true" duration-ms="82" started-at="2016-12-09T11:12:40Z" finished-at="2016-12-09T11:12:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:test.usual.LandingPage12Test@34b7bfc0]" name="afterClass" is-config="true" duration-ms="697" started-at="2016-12-09T11:12:40Z" finished-at="2016-12-09T11:12:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- test.usual.LandingPage12Test -->
+      <class name="test.moilogin.LandingPageOkTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test.moilogin.LandingPageOkTest@15975490]" name="beforeClass" is-config="true" duration-ms="3051" started-at="2016-12-09T11:12:41Z" finished-at="2016-12-09T11:12:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.moilogin.LandingPageOkTest@15975490]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2016-12-09T11:12:44Z" finished-at="2016-12-09T11:12:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="canOpenOk()[pri:0, instance:test.moilogin.LandingPageOkTest@15975490]" name="canOpenOk" duration-ms="3603" started-at="2016-12-09T11:12:44Z" finished-at="2016-12-09T11:12:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canOpenOk -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.moilogin.LandingPageOkTest@15975490]" name="afterMethod" is-config="true" duration-ms="18" started-at="2016-12-09T11:12:47Z" finished-at="2016-12-09T11:12:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:test.moilogin.LandingPageOkTest@15975490]" name="afterClass" is-config="true" duration-ms="713" started-at="2016-12-09T11:12:47Z" finished-at="2016-12-09T11:12:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- test.moilogin.LandingPageOkTest -->
+      <class name="test.moilogin.LandingPageVkTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test.moilogin.LandingPageVkTest@6615435c]" name="beforeClass" is-config="true" duration-ms="3135" started-at="2016-12-09T11:13:10Z" finished-at="2016-12-09T11:13:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.moilogin.LandingPageVkTest@6615435c]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-12-09T11:13:13Z" finished-at="2016-12-09T11:13:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="canOpenVk()[pri:0, instance:test.moilogin.LandingPageVkTest@6615435c]" name="canOpenVk" duration-ms="3469" started-at="2016-12-09T11:13:13Z" finished-at="2016-12-09T11:13:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canOpenVk -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.moilogin.LandingPageVkTest@6615435c]" name="afterMethod" is-config="true" duration-ms="17" started-at="2016-12-09T11:13:17Z" finished-at="2016-12-09T11:13:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:test.moilogin.LandingPageVkTest@6615435c]" name="afterClass" is-config="true" duration-ms="664" started-at="2016-12-09T11:13:17Z" finished-at="2016-12-09T11:13:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- test.moilogin.LandingPageVkTest -->
+      <class name="test.usual.LandingPage6Test">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test.usual.LandingPage6Test@327471b5]" name="beforeClass" is-config="true" duration-ms="3100" started-at="2016-12-09T11:14:49Z" finished-at="2016-12-09T11:14:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="canOpenLandingPage6()[pri:0, instance:test.usual.LandingPage6Test@327471b5]" name="canOpenLandingPage6" duration-ms="1557" started-at="2016-12-09T11:14:52Z" finished-at="2016-12-09T11:14:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canOpenLandingPage6 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.usual.LandingPage6Test@327471b5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-12-09T11:14:52Z" finished-at="2016-12-09T11:14:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.usual.LandingPage6Test@327471b5]" name="afterMethod" is-config="true" duration-ms="33" started-at="2016-12-09T11:14:54Z" finished-at="2016-12-09T11:14:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.usual.LandingPage6Test@327471b5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-12-09T11:14:54Z" finished-at="2016-12-09T11:14:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="canRegisterUsualWithCurrencyRubAnd100Bonus()[pri:0, instance:test.usual.LandingPage6Test@327471b5]" name="canRegisterUsualWithCurrencyRubAnd100Bonus" duration-ms="9272" started-at="2016-12-09T11:14:54Z" finished-at="2016-12-09T11:15:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canRegisterUsualWithCurrencyRubAnd100Bonus -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.usual.LandingPage6Test@327471b5]" name="afterMethod" is-config="true" duration-ms="44" started-at="2016-12-09T11:15:03Z" finished-at="2016-12-09T11:15:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.usual.LandingPage6Test@327471b5]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2016-12-09T11:15:03Z" finished-at="2016-12-09T11:15:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="tryRegisterWithInValidCredentials(java.lang.String, java.lang.String)[pri:0, instance:test.usual.LandingPage6Test@327471b5]" name="tryRegisterWithInValidCredentials" duration-ms="689" started-at="2016-12-09T11:15:03Z" data-provider="wrongEmailAndPassword" finished-at="2016-12-09T11:15:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dt+12002]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[L8"RA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tryRegisterWithInValidCredentials -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.usual.LandingPage6Test@327471b5]" name="afterMethod" is-config="true" duration-ms="31" started-at="2016-12-09T11:15:04Z" finished-at="2016-12-09T11:15:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tryRegisterWithInValidCredentials(java.lang.String, java.lang.String)[pri:0, instance:test.usual.LandingPage6Test@327471b5]" name="tryRegisterWithInValidCredentials" duration-ms="624" started-at="2016-12-09T11:15:04Z" data-provider="wrongEmailAndPassword" finished-at="2016-12-09T11:15:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[lbJOWI]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[564347]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tryRegisterWithInValidCredentials -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.usual.LandingPage6Test@327471b5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-12-09T11:15:04Z" finished-at="2016-12-09T11:15:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.usual.LandingPage6Test@327471b5]" name="afterMethod" is-config="true" duration-ms="43" started-at="2016-12-09T11:15:04Z" finished-at="2016-12-09T11:15:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.usual.LandingPage6Test@327471b5]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2016-12-09T11:15:04Z" finished-at="2016-12-09T11:15:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="canRegisterUsualWithCurrencyUsdAnd100Bonus()[pri:0, instance:test.usual.LandingPage6Test@327471b5]" name="canRegisterUsualWithCurrencyUsdAnd100Bonus" duration-ms="2553" started-at="2016-12-09T11:15:04Z" finished-at="2016-12-09T11:15:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canRegisterUsualWithCurrencyUsdAnd100Bonus -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.usual.LandingPage6Test@327471b5]" name="afterMethod" is-config="true" duration-ms="36" started-at="2016-12-09T11:15:07Z" finished-at="2016-12-09T11:15:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tryRegisterWithEmptyFields()[pri:0, instance:test.usual.LandingPage6Test@327471b5]" name="tryRegisterWithEmptyFields" duration-ms="618" started-at="2016-12-09T11:15:07Z" finished-at="2016-12-09T11:15:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tryRegisterWithEmptyFields -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.usual.LandingPage6Test@327471b5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-12-09T11:15:07Z" finished-at="2016-12-09T11:15:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.usual.LandingPage6Test@327471b5]" name="afterMethod" is-config="true" duration-ms="60" started-at="2016-12-09T11:15:07Z" finished-at="2016-12-09T11:15:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tryRegisterWithOutAgree()[pri:0, instance:test.usual.LandingPage6Test@327471b5]" name="tryRegisterWithOutAgree" duration-ms="572" started-at="2016-12-09T11:15:08Z" finished-at="2016-12-09T11:15:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tryRegisterWithOutAgree -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.usual.LandingPage6Test@327471b5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-12-09T11:15:08Z" finished-at="2016-12-09T11:15:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.usual.LandingPage6Test@327471b5]" name="afterMethod" is-config="true" duration-ms="34" started-at="2016-12-09T11:15:08Z" finished-at="2016-12-09T11:15:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:test.usual.LandingPage6Test@327471b5]" name="afterClass" is-config="true" duration-ms="721" started-at="2016-12-09T11:15:08Z" finished-at="2016-12-09T11:15:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- test.usual.LandingPage6Test -->
+      <class name="test.moilogin.LandingPageFbTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test.moilogin.LandingPageFbTest@617c74e5]" name="beforeClass" is-config="true" duration-ms="3029" started-at="2016-12-09T11:11:49Z" finished-at="2016-12-09T11:11:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.moilogin.LandingPageFbTest@617c74e5]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2016-12-09T11:11:52Z" finished-at="2016-12-09T11:11:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="canOpenFb()[pri:0, instance:test.moilogin.LandingPageFbTest@617c74e5]" name="canOpenFb" duration-ms="3401" started-at="2016-12-09T11:11:52Z" finished-at="2016-12-09T11:11:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canOpenFb -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.moilogin.LandingPageFbTest@617c74e5]" name="afterMethod" is-config="true" duration-ms="30" started-at="2016-12-09T11:11:56Z" finished-at="2016-12-09T11:11:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:test.moilogin.LandingPageFbTest@617c74e5]" name="afterClass" is-config="true" duration-ms="704" started-at="2016-12-09T11:11:56Z" finished-at="2016-12-09T11:11:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- test.moilogin.LandingPageFbTest -->
+      <class name="test.usual.LandingPage4Test">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test.usual.LandingPage4Test@2d3fcdbd]" name="beforeClass" is-config="true" duration-ms="3069" started-at="2016-12-09T11:14:06Z" finished-at="2016-12-09T11:14:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.usual.LandingPage4Test@2d3fcdbd]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2016-12-09T11:14:09Z" finished-at="2016-12-09T11:14:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="canRegisterUsualWithCurrencyRubWithWelcomeGift()[pri:0, instance:test.usual.LandingPage4Test@2d3fcdbd]" name="canRegisterUsualWithCurrencyRubWithWelcomeGift" duration-ms="9354" started-at="2016-12-09T11:14:09Z" finished-at="2016-12-09T11:14:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canRegisterUsualWithCurrencyRubWithWelcomeGift -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.usual.LandingPage4Test@2d3fcdbd]" name="afterMethod" is-config="true" duration-ms="46" started-at="2016-12-09T11:14:18Z" finished-at="2016-12-09T11:14:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.usual.LandingPage4Test@2d3fcdbd]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-12-09T11:14:18Z" finished-at="2016-12-09T11:14:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="tryRegisterWithInvalidCredentials(java.lang.String, java.lang.String)[pri:0, instance:test.usual.LandingPage4Test@2d3fcdbd]" name="tryRegisterWithInvalidCredentials" duration-ms="1232" started-at="2016-12-09T11:14:18Z" data-provider="wrongEmailAndPassword" finished-at="2016-12-09T11:14:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dt+08083]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[&*!{.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tryRegisterWithInvalidCredentials -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.usual.LandingPage4Test@2d3fcdbd]" name="afterMethod" is-config="true" duration-ms="33" started-at="2016-12-09T11:14:20Z" finished-at="2016-12-09T11:14:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tryRegisterWithInvalidCredentials(java.lang.String, java.lang.String)[pri:0, instance:test.usual.LandingPage4Test@2d3fcdbd]" name="tryRegisterWithInvalidCredentials" duration-ms="994" started-at="2016-12-09T11:14:20Z" data-provider="wrongEmailAndPassword" finished-at="2016-12-09T11:14:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rRssaU]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[245365]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tryRegisterWithInvalidCredentials -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.usual.LandingPage4Test@2d3fcdbd]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-12-09T11:14:20Z" finished-at="2016-12-09T11:14:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.usual.LandingPage4Test@2d3fcdbd]" name="afterMethod" is-config="true" duration-ms="32" started-at="2016-12-09T11:14:21Z" finished-at="2016-12-09T11:14:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.usual.LandingPage4Test@2d3fcdbd]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-12-09T11:14:21Z" finished-at="2016-12-09T11:14:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="canRegisterUsualWithCurrencyUsdWithWelcomeGift()[pri:0, instance:test.usual.LandingPage4Test@2d3fcdbd]" name="canRegisterUsualWithCurrencyUsdWithWelcomeGift" duration-ms="2882" started-at="2016-12-09T11:14:21Z" finished-at="2016-12-09T11:14:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canRegisterUsualWithCurrencyUsdWithWelcomeGift -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.usual.LandingPage4Test@2d3fcdbd]" name="afterMethod" is-config="true" duration-ms="51" started-at="2016-12-09T11:14:24Z" finished-at="2016-12-09T11:14:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tryRegisterWithEmptyFields()[pri:0, instance:test.usual.LandingPage4Test@2d3fcdbd]" name="tryRegisterWithEmptyFields" duration-ms="1087" started-at="2016-12-09T11:14:24Z" finished-at="2016-12-09T11:14:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tryRegisterWithEmptyFields -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.usual.LandingPage4Test@2d3fcdbd]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-12-09T11:14:24Z" finished-at="2016-12-09T11:14:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.usual.LandingPage4Test@2d3fcdbd]" name="afterMethod" is-config="true" duration-ms="37" started-at="2016-12-09T11:14:25Z" finished-at="2016-12-09T11:14:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.usual.LandingPage4Test@2d3fcdbd]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-12-09T11:14:25Z" finished-at="2016-12-09T11:14:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="tryRegisterWithOutAgree()[pri:0, instance:test.usual.LandingPage4Test@2d3fcdbd]" name="tryRegisterWithOutAgree" duration-ms="854" started-at="2016-12-09T11:14:25Z" finished-at="2016-12-09T11:14:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tryRegisterWithOutAgree -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.usual.LandingPage4Test@2d3fcdbd]" name="afterMethod" is-config="true" duration-ms="41" started-at="2016-12-09T11:14:26Z" finished-at="2016-12-09T11:14:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:test.usual.LandingPage4Test@2d3fcdbd]" name="afterClass" is-config="true" duration-ms="794" started-at="2016-12-09T11:14:26Z" finished-at="2016-12-09T11:14:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- test.usual.LandingPage4Test -->
+      <class name="test.usual.LandingPage2Test">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test.usual.LandingPage2Test@67b6d4ae]" name="beforeClass" is-config="true" duration-ms="2963" started-at="2016-12-09T11:13:18Z" finished-at="2016-12-09T11:13:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="canOpenLandingPage2()[pri:0, instance:test.usual.LandingPage2Test@67b6d4ae]" name="canOpenLandingPage2" duration-ms="1994" started-at="2016-12-09T11:13:21Z" finished-at="2016-12-09T11:13:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canOpenLandingPage2 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.usual.LandingPage2Test@67b6d4ae]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-12-09T11:13:21Z" finished-at="2016-12-09T11:13:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.usual.LandingPage2Test@67b6d4ae]" name="afterMethod" is-config="true" duration-ms="50" started-at="2016-12-09T11:13:23Z" finished-at="2016-12-09T11:13:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.usual.LandingPage2Test@67b6d4ae]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-12-09T11:13:23Z" finished-at="2016-12-09T11:13:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="canRegisterUsualWithCurrencyRubWithWelcomeGift()[pri:0, instance:test.usual.LandingPage2Test@67b6d4ae]" name="canRegisterUsualWithCurrencyRubWithWelcomeGift" duration-ms="7388" started-at="2016-12-09T11:13:23Z" finished-at="2016-12-09T11:13:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canRegisterUsualWithCurrencyRubWithWelcomeGift -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.usual.LandingPage2Test@67b6d4ae]" name="afterMethod" is-config="true" duration-ms="41" started-at="2016-12-09T11:13:30Z" finished-at="2016-12-09T11:13:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tryRegisterWitInvalidCredentials(java.lang.String, java.lang.String)[pri:0, instance:test.usual.LandingPage2Test@67b6d4ae]" name="tryRegisterWitInvalidCredentials" duration-ms="1501" started-at="2016-12-09T11:13:30Z" data-provider="wrongEmailAndPassword" finished-at="2016-12-09T11:13:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dt+38631]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[$9#}&]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tryRegisterWitInvalidCredentials -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.usual.LandingPage2Test@67b6d4ae]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-12-09T11:13:30Z" finished-at="2016-12-09T11:13:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.usual.LandingPage2Test@67b6d4ae]" name="afterMethod" is-config="true" duration-ms="41" started-at="2016-12-09T11:13:31Z" finished-at="2016-12-09T11:13:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tryRegisterWitInvalidCredentials(java.lang.String, java.lang.String)[pri:0, instance:test.usual.LandingPage2Test@67b6d4ae]" name="tryRegisterWitInvalidCredentials" duration-ms="1512" started-at="2016-12-09T11:13:32Z" data-provider="wrongEmailAndPassword" finished-at="2016-12-09T11:13:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aLJEcy]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[250202]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tryRegisterWitInvalidCredentials -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.usual.LandingPage2Test@67b6d4ae]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-12-09T11:13:32Z" finished-at="2016-12-09T11:13:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.usual.LandingPage2Test@67b6d4ae]" name="afterMethod" is-config="true" duration-ms="57" started-at="2016-12-09T11:13:33Z" finished-at="2016-12-09T11:13:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.usual.LandingPage2Test@67b6d4ae]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2016-12-09T11:13:33Z" finished-at="2016-12-09T11:13:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="canRegisterUsualWithCurrencyUsdWithWelcomeGift()[pri:0, instance:test.usual.LandingPage2Test@67b6d4ae]" name="canRegisterUsualWithCurrencyUsdWithWelcomeGift" duration-ms="3351" started-at="2016-12-09T11:13:33Z" finished-at="2016-12-09T11:13:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canRegisterUsualWithCurrencyUsdWithWelcomeGift -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.usual.LandingPage2Test@67b6d4ae]" name="afterMethod" is-config="true" duration-ms="49" started-at="2016-12-09T11:13:36Z" finished-at="2016-12-09T11:13:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tryRegisterWithEmptyFields()[pri:0, instance:test.usual.LandingPage2Test@67b6d4ae]" name="tryRegisterWithEmptyFields" duration-ms="1510" started-at="2016-12-09T11:13:37Z" finished-at="2016-12-09T11:13:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tryRegisterWithEmptyFields -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.usual.LandingPage2Test@67b6d4ae]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-12-09T11:13:37Z" finished-at="2016-12-09T11:13:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.usual.LandingPage2Test@67b6d4ae]" name="afterMethod" is-config="true" duration-ms="49" started-at="2016-12-09T11:13:38Z" finished-at="2016-12-09T11:13:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.usual.LandingPage2Test@67b6d4ae]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-12-09T11:13:38Z" finished-at="2016-12-09T11:13:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="tryRegisterWithOutAgree()[pri:0, instance:test.usual.LandingPage2Test@67b6d4ae]" name="tryRegisterWithOutAgree" duration-ms="1462" started-at="2016-12-09T11:13:38Z" finished-at="2016-12-09T11:13:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tryRegisterWithOutAgree -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.usual.LandingPage2Test@67b6d4ae]" name="afterMethod" is-config="true" duration-ms="45" started-at="2016-12-09T11:13:40Z" finished-at="2016-12-09T11:13:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:test.usual.LandingPage2Test@67b6d4ae]" name="afterClass" is-config="true" duration-ms="724" started-at="2016-12-09T11:13:40Z" finished-at="2016-12-09T11:13:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- test.usual.LandingPage2Test -->
+      <class name="test.usual.LandingPage3Test">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test.usual.LandingPage3Test@366e2eef]" name="beforeClass" is-config="true" duration-ms="3116" started-at="2016-12-09T11:13:47Z" finished-at="2016-12-09T11:13:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.usual.LandingPage3Test@366e2eef]" name="beforeMethod" is-config="true" duration-ms="3" started-at="2016-12-09T11:13:50Z" finished-at="2016-12-09T11:13:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="canRegisterUsualWithCurrencyRubWithWelcomeGift()[pri:0, instance:test.usual.LandingPage3Test@366e2eef]" name="canRegisterUsualWithCurrencyRubWithWelcomeGift" duration-ms="8481" started-at="2016-12-09T11:13:50Z" finished-at="2016-12-09T11:13:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canRegisterUsualWithCurrencyRubWithWelcomeGift -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.usual.LandingPage3Test@366e2eef]" name="afterMethod" is-config="true" duration-ms="37" started-at="2016-12-09T11:13:59Z" finished-at="2016-12-09T11:13:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.usual.LandingPage3Test@366e2eef]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2016-12-09T11:13:59Z" finished-at="2016-12-09T11:13:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="tryRegisterWitInvalidCredentials(java.lang.String, java.lang.String)[pri:0, instance:test.usual.LandingPage3Test@366e2eef]" name="tryRegisterWitInvalidCredentials" duration-ms="1232" started-at="2016-12-09T11:13:59Z" data-provider="wrongEmailAndPassword" finished-at="2016-12-09T11:14:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dt+42049]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[%nxFk]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tryRegisterWitInvalidCredentials -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.usual.LandingPage3Test@366e2eef]" name="afterMethod" is-config="true" duration-ms="42" started-at="2016-12-09T11:14:00Z" finished-at="2016-12-09T11:14:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tryRegisterWitInvalidCredentials(java.lang.String, java.lang.String)[pri:0, instance:test.usual.LandingPage3Test@366e2eef]" name="tryRegisterWitInvalidCredentials" duration-ms="943" started-at="2016-12-09T11:14:00Z" data-provider="wrongEmailAndPassword" finished-at="2016-12-09T11:14:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FtAJip]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[633371]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tryRegisterWitInvalidCredentials -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.usual.LandingPage3Test@366e2eef]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-12-09T11:14:00Z" finished-at="2016-12-09T11:14:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.usual.LandingPage3Test@366e2eef]" name="afterMethod" is-config="true" duration-ms="49" started-at="2016-12-09T11:14:01Z" finished-at="2016-12-09T11:14:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.usual.LandingPage3Test@366e2eef]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-12-09T11:14:01Z" finished-at="2016-12-09T11:14:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="canRegisterUsualWithCurrencyUsdWithWelcomeGift()[pri:0, instance:test.usual.LandingPage3Test@366e2eef]" name="canRegisterUsualWithCurrencyUsdWithWelcomeGift" duration-ms="2438" started-at="2016-12-09T11:14:01Z" finished-at="2016-12-09T11:14:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canRegisterUsualWithCurrencyUsdWithWelcomeGift -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.usual.LandingPage3Test@366e2eef]" name="afterMethod" is-config="true" duration-ms="56" started-at="2016-12-09T11:14:03Z" finished-at="2016-12-09T11:14:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.usual.LandingPage3Test@366e2eef]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-12-09T11:14:04Z" finished-at="2016-12-09T11:14:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="tryRegisterWithEmptyFields()[pri:0, instance:test.usual.LandingPage3Test@366e2eef]" name="tryRegisterWithEmptyFields" duration-ms="647" started-at="2016-12-09T11:14:04Z" finished-at="2016-12-09T11:14:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tryRegisterWithEmptyFields -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.usual.LandingPage3Test@366e2eef]" name="afterMethod" is-config="true" duration-ms="30" started-at="2016-12-09T11:14:04Z" finished-at="2016-12-09T11:14:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tryRegisterWithOutAgree()[pri:0, instance:test.usual.LandingPage3Test@366e2eef]" name="tryRegisterWithOutAgree" duration-ms="939" started-at="2016-12-09T11:14:04Z" finished-at="2016-12-09T11:14:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tryRegisterWithOutAgree -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.usual.LandingPage3Test@366e2eef]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-12-09T11:14:04Z" finished-at="2016-12-09T11:14:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.usual.LandingPage3Test@366e2eef]" name="afterMethod" is-config="true" duration-ms="75" started-at="2016-12-09T11:14:05Z" finished-at="2016-12-09T11:14:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:test.usual.LandingPage3Test@366e2eef]" name="afterClass" is-config="true" duration-ms="744" started-at="2016-12-09T11:14:05Z" finished-at="2016-12-09T11:14:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- test.usual.LandingPage3Test -->
+      <class name="test.usual.LandingPage8Test">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test.usual.LandingPage8Test@62043840]" name="beforeClass" is-config="true" duration-ms="3105" started-at="2016-12-09T11:15:31Z" finished-at="2016-12-09T11:15:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.usual.LandingPage8Test@62043840]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2016-12-09T11:15:34Z" finished-at="2016-12-09T11:15:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="canRegisterWithUsualRubWithValidCredentialsAnd100Bonus()[pri:0, instance:test.usual.LandingPage8Test@62043840]" name="canRegisterWithUsualRubWithValidCredentialsAnd100Bonus" duration-ms="7880" started-at="2016-12-09T11:15:34Z" finished-at="2016-12-09T11:15:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canRegisterWithUsualRubWithValidCredentialsAnd100Bonus -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.usual.LandingPage8Test@62043840]" name="afterMethod" is-config="true" duration-ms="38" started-at="2016-12-09T11:15:42Z" finished-at="2016-12-09T11:15:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.usual.LandingPage8Test@62043840]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-12-09T11:15:42Z" finished-at="2016-12-09T11:15:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="tryRegisterWithInValidCredentials(java.lang.String, java.lang.String)[pri:0, instance:test.usual.LandingPage8Test@62043840]" name="tryRegisterWithInValidCredentials" duration-ms="1234" started-at="2016-12-09T11:15:42Z" data-provider="inValidCredentials" finished-at="2016-12-09T11:15:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dt+31952]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[E-4jh]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tryRegisterWithInValidCredentials -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.usual.LandingPage8Test@62043840]" name="afterMethod" is-config="true" duration-ms="55" started-at="2016-12-09T11:15:43Z" finished-at="2016-12-09T11:15:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tryRegisterWithInValidCredentials(java.lang.String, java.lang.String)[pri:0, instance:test.usual.LandingPage8Test@62043840]" name="tryRegisterWithInValidCredentials" duration-ms="985" started-at="2016-12-09T11:15:44Z" data-provider="inValidCredentials" finished-at="2016-12-09T11:15:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ZUHNDO]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[159032]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tryRegisterWithInValidCredentials -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.usual.LandingPage8Test@62043840]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-12-09T11:15:44Z" finished-at="2016-12-09T11:15:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.usual.LandingPage8Test@62043840]" name="afterMethod" is-config="true" duration-ms="46" started-at="2016-12-09T11:15:44Z" finished-at="2016-12-09T11:15:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="canRegisterWithUsualUsdWithValidCredentialsAnd100Bonus()[pri:0, instance:test.usual.LandingPage8Test@62043840]" name="canRegisterWithUsualUsdWithValidCredentialsAnd100Bonus" duration-ms="2393" started-at="2016-12-09T11:15:45Z" finished-at="2016-12-09T11:15:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canRegisterWithUsualUsdWithValidCredentialsAnd100Bonus -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.usual.LandingPage8Test@62043840]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-12-09T11:15:45Z" finished-at="2016-12-09T11:15:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.usual.LandingPage8Test@62043840]" name="afterMethod" is-config="true" duration-ms="37" started-at="2016-12-09T11:15:47Z" finished-at="2016-12-09T11:15:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.usual.LandingPage8Test@62043840]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-12-09T11:15:47Z" finished-at="2016-12-09T11:15:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="tryRegisterWithEmptyFields()[pri:0, instance:test.usual.LandingPage8Test@62043840]" name="tryRegisterWithEmptyFields" duration-ms="951" started-at="2016-12-09T11:15:47Z" finished-at="2016-12-09T11:15:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tryRegisterWithEmptyFields -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.usual.LandingPage8Test@62043840]" name="afterMethod" is-config="true" duration-ms="70" started-at="2016-12-09T11:15:48Z" finished-at="2016-12-09T11:15:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.usual.LandingPage8Test@62043840]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-12-09T11:15:48Z" finished-at="2016-12-09T11:15:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="tryRegisterWithOutAgree()[pri:0, instance:test.usual.LandingPage8Test@62043840]" name="tryRegisterWithOutAgree" duration-ms="1011" started-at="2016-12-09T11:15:48Z" finished-at="2016-12-09T11:15:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tryRegisterWithOutAgree -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.usual.LandingPage8Test@62043840]" name="afterMethod" is-config="true" duration-ms="66" started-at="2016-12-09T11:15:49Z" finished-at="2016-12-09T11:15:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:test.usual.LandingPage8Test@62043840]" name="afterClass" is-config="true" duration-ms="763" started-at="2016-12-09T11:15:49Z" finished-at="2016-12-09T11:15:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- test.usual.LandingPage8Test -->
+      <class name="test.usual.LandingPage10Test">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test.usual.LandingPage10Test@1936f0f5]" name="beforeClass" is-config="true" duration-ms="3522" started-at="2016-12-09T11:11:30Z" finished-at="2016-12-09T11:11:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.usual.LandingPage10Test@1936f0f5]" name="beforeMethod" is-config="true" duration-ms="9" started-at="2016-12-09T11:11:33Z" finished-at="2016-12-09T11:11:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="canRegisterUsualWithCurrencyRubAnd100Bonus()[pri:0, instance:test.usual.LandingPage10Test@1936f0f5]" name="canRegisterUsualWithCurrencyRubAnd100Bonus" duration-ms="9356" started-at="2016-12-09T11:11:33Z" finished-at="2016-12-09T11:11:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canRegisterUsualWithCurrencyRubAnd100Bonus -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.usual.LandingPage10Test@1936f0f5]" name="afterMethod" is-config="true" duration-ms="41" started-at="2016-12-09T11:11:43Z" finished-at="2016-12-09T11:11:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tryRegisterWithInValidCredentials(java.lang.String, java.lang.String)[pri:0, instance:test.usual.LandingPage10Test@1936f0f5]" name="tryRegisterWithInValidCredentials" duration-ms="1042" started-at="2016-12-09T11:11:43Z" data-provider="wrongEmailAndPassword" finished-at="2016-12-09T11:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dt+07809]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[+Q3C|]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tryRegisterWithInValidCredentials -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.usual.LandingPage10Test@1936f0f5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-12-09T11:11:43Z" finished-at="2016-12-09T11:11:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.usual.LandingPage10Test@1936f0f5]" name="afterMethod" is-config="true" duration-ms="36" started-at="2016-12-09T11:11:44Z" finished-at="2016-12-09T11:11:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tryRegisterWithInValidCredentials(java.lang.String, java.lang.String)[pri:0, instance:test.usual.LandingPage10Test@1936f0f5]" name="tryRegisterWithInValidCredentials" duration-ms="727" started-at="2016-12-09T11:11:44Z" data-provider="wrongEmailAndPassword" finished-at="2016-12-09T11:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[zyBuFQ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[215542]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tryRegisterWithInValidCredentials -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.usual.LandingPage10Test@1936f0f5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-12-09T11:11:44Z" finished-at="2016-12-09T11:11:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.usual.LandingPage10Test@1936f0f5]" name="afterMethod" is-config="true" duration-ms="40" started-at="2016-12-09T11:11:44Z" finished-at="2016-12-09T11:11:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.usual.LandingPage10Test@1936f0f5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-12-09T11:11:44Z" finished-at="2016-12-09T11:11:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="canRegisterUsualWithCurrencyUsdAnd100Bonus()[pri:0, instance:test.usual.LandingPage10Test@1936f0f5]" name="canRegisterUsualWithCurrencyUsdAnd100Bonus" duration-ms="2579" started-at="2016-12-09T11:11:44Z" finished-at="2016-12-09T11:11:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canRegisterUsualWithCurrencyUsdAnd100Bonus -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.usual.LandingPage10Test@1936f0f5]" name="afterMethod" is-config="true" duration-ms="38" started-at="2016-12-09T11:11:47Z" finished-at="2016-12-09T11:11:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tryRegisterWithEmptyFields()[pri:0, instance:test.usual.LandingPage10Test@1936f0f5]" name="tryRegisterWithEmptyFields" duration-ms="641" started-at="2016-12-09T11:11:47Z" finished-at="2016-12-09T11:11:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tryRegisterWithEmptyFields -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.usual.LandingPage10Test@1936f0f5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-12-09T11:11:47Z" finished-at="2016-12-09T11:11:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.usual.LandingPage10Test@1936f0f5]" name="afterMethod" is-config="true" duration-ms="35" started-at="2016-12-09T11:11:48Z" finished-at="2016-12-09T11:11:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tryRegisterWithOutAgree()[pri:0, instance:test.usual.LandingPage10Test@1936f0f5]" name="tryRegisterWithOutAgree" duration-ms="606" started-at="2016-12-09T11:11:48Z" finished-at="2016-12-09T11:11:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tryRegisterWithOutAgree -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.usual.LandingPage10Test@1936f0f5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-12-09T11:11:48Z" finished-at="2016-12-09T11:11:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.usual.LandingPage10Test@1936f0f5]" name="afterMethod" is-config="true" duration-ms="33" started-at="2016-12-09T11:11:48Z" finished-at="2016-12-09T11:11:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:test.usual.LandingPage10Test@1936f0f5]" name="afterClass" is-config="true" duration-ms="834" started-at="2016-12-09T11:11:48Z" finished-at="2016-12-09T11:11:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- test.usual.LandingPage10Test -->
+      <class name="test.moilogin.LandingPageMrTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test.moilogin.LandingPageMrTest@3a03464]" name="beforeClass" is-config="true" duration-ms="3094" started-at="2016-12-09T11:12:13Z" finished-at="2016-12-09T11:12:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.moilogin.LandingPageMrTest@3a03464]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2016-12-09T11:12:17Z" finished-at="2016-12-09T11:12:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="canOpenMailRu()[pri:0, instance:test.moilogin.LandingPageMrTest@3a03464]" name="canOpenMailRu" duration-ms="2759" started-at="2016-12-09T11:12:17Z" finished-at="2016-12-09T11:12:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canOpenMailRu -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.moilogin.LandingPageMrTest@3a03464]" name="afterMethod" is-config="true" duration-ms="5" started-at="2016-12-09T11:12:19Z" finished-at="2016-12-09T11:12:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:test.moilogin.LandingPageMrTest@3a03464]" name="afterClass" is-config="true" duration-ms="709" started-at="2016-12-09T11:12:19Z" finished-at="2016-12-09T11:12:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- test.moilogin.LandingPageMrTest -->
+      <class name="test.moilogin.LandingPageYaTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test.moilogin.LandingPageYaTest@6df97b55]" name="beforeClass" is-config="true" duration-ms="3077" started-at="2016-12-09T11:13:40Z" finished-at="2016-12-09T11:13:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.moilogin.LandingPageYaTest@6df97b55]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-12-09T11:13:43Z" finished-at="2016-12-09T11:13:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="canOpenYandex()[pri:0, instance:test.moilogin.LandingPageYaTest@6df97b55]" name="canOpenYandex" duration-ms="3029" started-at="2016-12-09T11:13:43Z" finished-at="2016-12-09T11:13:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canOpenYandex -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.moilogin.LandingPageYaTest@6df97b55]" name="afterMethod" is-config="true" duration-ms="31" started-at="2016-12-09T11:13:46Z" finished-at="2016-12-09T11:13:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:test.moilogin.LandingPageYaTest@6df97b55]" name="afterClass" is-config="true" duration-ms="720" started-at="2016-12-09T11:13:46Z" finished-at="2016-12-09T11:13:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- test.moilogin.LandingPageYaTest -->
+      <class name="test.usual.LandingPage11Test">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test.usual.LandingPage11Test@47f6473]" name="beforeClass" is-config="true" duration-ms="3104" started-at="2016-12-09T11:11:56Z" finished-at="2016-12-09T11:11:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.usual.LandingPage11Test@47f6473]" name="beforeMethod" is-config="true" duration-ms="3" started-at="2016-12-09T11:11:59Z" finished-at="2016-12-09T11:11:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="canChooseBonusAndRegisterRub()[pri:0, instance:test.usual.LandingPage11Test@47f6473]" name="canChooseBonusAndRegisterRub" duration-ms="2093" started-at="2016-12-09T11:11:59Z" finished-at="2016-12-09T11:12:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canChooseBonusAndRegisterRub -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.usual.LandingPage11Test@47f6473]" name="afterMethod" is-config="true" duration-ms="44" started-at="2016-12-09T11:12:02Z" finished-at="2016-12-09T11:12:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tryRegisterWithInValidCredentials(java.lang.String, java.lang.String)[pri:0, instance:test.usual.LandingPage11Test@47f6473]" name="tryRegisterWithInValidCredentials" duration-ms="902" started-at="2016-12-09T11:12:02Z" data-provider="wrongEmailAndPassword" finished-at="2016-12-09T11:12:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dt+42778]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[yZK{p]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tryRegisterWithInValidCredentials -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.usual.LandingPage11Test@47f6473]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-12-09T11:12:02Z" finished-at="2016-12-09T11:12:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.usual.LandingPage11Test@47f6473]" name="afterMethod" is-config="true" duration-ms="51" started-at="2016-12-09T11:12:02Z" finished-at="2016-12-09T11:12:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.usual.LandingPage11Test@47f6473]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-12-09T11:12:03Z" finished-at="2016-12-09T11:12:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="tryRegisterWithInValidCredentials(java.lang.String, java.lang.String)[pri:0, instance:test.usual.LandingPage11Test@47f6473]" name="tryRegisterWithInValidCredentials" duration-ms="693" started-at="2016-12-09T11:12:03Z" data-provider="wrongEmailAndPassword" finished-at="2016-12-09T11:12:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vdUizl@]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[313391]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tryRegisterWithInValidCredentials -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.usual.LandingPage11Test@47f6473]" name="afterMethod" is-config="true" duration-ms="36" started-at="2016-12-09T11:12:03Z" finished-at="2016-12-09T11:12:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.usual.LandingPage11Test@47f6473]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-12-09T11:12:03Z" finished-at="2016-12-09T11:12:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="canChooseBonusAndRegisterUsd()[pri:0, instance:test.usual.LandingPage11Test@47f6473]" name="canChooseBonusAndRegisterUsd" duration-ms="1047" started-at="2016-12-09T11:12:03Z" finished-at="2016-12-09T11:12:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canChooseBonusAndRegisterUsd -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.usual.LandingPage11Test@47f6473]" name="afterMethod" is-config="true" duration-ms="36" started-at="2016-12-09T11:12:04Z" finished-at="2016-12-09T11:12:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.usual.LandingPage11Test@47f6473]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-12-09T11:12:04Z" finished-at="2016-12-09T11:12:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="canChooseBonusAfterRegisterUsd()[pri:0, instance:test.usual.LandingPage11Test@47f6473]" name="canChooseBonusAfterRegisterUsd" duration-ms="6920" started-at="2016-12-09T11:12:04Z" finished-at="2016-12-09T11:12:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canChooseBonusAfterRegisterUsd -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.usual.LandingPage11Test@47f6473]" name="afterMethod" is-config="true" duration-ms="42" started-at="2016-12-09T11:12:11Z" finished-at="2016-12-09T11:12:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tryRegisterWithEmptyFields()[pri:0, instance:test.usual.LandingPage11Test@47f6473]" name="tryRegisterWithEmptyFields" duration-ms="704" started-at="2016-12-09T11:12:11Z" finished-at="2016-12-09T11:12:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tryRegisterWithEmptyFields -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.usual.LandingPage11Test@47f6473]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-12-09T11:12:11Z" finished-at="2016-12-09T11:12:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.usual.LandingPage11Test@47f6473]" name="afterMethod" is-config="true" duration-ms="33" started-at="2016-12-09T11:12:12Z" finished-at="2016-12-09T11:12:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tryRegisterWithOutAgree()[pri:0, instance:test.usual.LandingPage11Test@47f6473]" name="tryRegisterWithOutAgree" duration-ms="596" started-at="2016-12-09T11:12:12Z" finished-at="2016-12-09T11:12:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tryRegisterWithOutAgree -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.usual.LandingPage11Test@47f6473]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-12-09T11:12:12Z" finished-at="2016-12-09T11:12:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.usual.LandingPage11Test@47f6473]" name="afterMethod" is-config="true" duration-ms="51" started-at="2016-12-09T11:12:13Z" finished-at="2016-12-09T11:12:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:test.usual.LandingPage11Test@47f6473]" name="afterClass" is-config="true" duration-ms="718" started-at="2016-12-09T11:12:13Z" finished-at="2016-12-09T11:12:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- test.usual.LandingPage11Test -->
+      <class name="test.usual.LandingPage5Test">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test.usual.LandingPage5Test@6b143ee9]" name="beforeClass" is-config="true" duration-ms="3063" started-at="2016-12-09T11:14:27Z" finished-at="2016-12-09T11:14:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="canRegisterUsualWithCurrencyRubAnd100Bonus()[pri:0, instance:test.usual.LandingPage5Test@6b143ee9]" name="canRegisterUsualWithCurrencyRubAnd100Bonus" duration-ms="8693" started-at="2016-12-09T11:14:30Z" finished-at="2016-12-09T11:14:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canRegisterUsualWithCurrencyRubAnd100Bonus -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.usual.LandingPage5Test@6b143ee9]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-12-09T11:14:30Z" finished-at="2016-12-09T11:14:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.usual.LandingPage5Test@6b143ee9]" name="afterMethod" is-config="true" duration-ms="38" started-at="2016-12-09T11:14:38Z" finished-at="2016-12-09T11:14:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.usual.LandingPage5Test@6b143ee9]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-12-09T11:14:38Z" finished-at="2016-12-09T11:14:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="tryRegisterWithInValidCredentials(java.lang.String, java.lang.String)[pri:0, instance:test.usual.LandingPage5Test@6b143ee9]" name="tryRegisterWithInValidCredentials" duration-ms="1341" started-at="2016-12-09T11:14:38Z" data-provider="wrongEmailAndPassword" finished-at="2016-12-09T11:14:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dt+69259]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[,qi:x]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tryRegisterWithInValidCredentials -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.usual.LandingPage5Test@6b143ee9]" name="afterMethod" is-config="true" duration-ms="50" started-at="2016-12-09T11:14:40Z" finished-at="2016-12-09T11:14:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tryRegisterWithInValidCredentials(java.lang.String, java.lang.String)[pri:0, instance:test.usual.LandingPage5Test@6b143ee9]" name="tryRegisterWithInValidCredentials" duration-ms="1009" started-at="2016-12-09T11:14:40Z" data-provider="wrongEmailAndPassword" finished-at="2016-12-09T11:14:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AWSTEL]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[636137]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tryRegisterWithInValidCredentials -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.usual.LandingPage5Test@6b143ee9]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-12-09T11:14:40Z" finished-at="2016-12-09T11:14:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.usual.LandingPage5Test@6b143ee9]" name="afterMethod" is-config="true" duration-ms="36" started-at="2016-12-09T11:14:41Z" finished-at="2016-12-09T11:14:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.usual.LandingPage5Test@6b143ee9]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-12-09T11:14:41Z" finished-at="2016-12-09T11:14:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="canClickOnButtonPlay()[pri:0, instance:test.usual.LandingPage5Test@6b143ee9]" name="canClickOnButtonPlay" duration-ms="798" started-at="2016-12-09T11:14:41Z" finished-at="2016-12-09T11:14:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canClickOnButtonPlay -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.usual.LandingPage5Test@6b143ee9]" name="afterMethod" is-config="true" duration-ms="39" started-at="2016-12-09T11:14:42Z" finished-at="2016-12-09T11:14:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.usual.LandingPage5Test@6b143ee9]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2016-12-09T11:14:42Z" finished-at="2016-12-09T11:14:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="canClickOnButtonRegistration()[pri:0, instance:test.usual.LandingPage5Test@6b143ee9]" name="canClickOnButtonRegistration" duration-ms="908" started-at="2016-12-09T11:14:42Z" finished-at="2016-12-09T11:14:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canClickOnButtonRegistration -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.usual.LandingPage5Test@6b143ee9]" name="afterMethod" is-config="true" duration-ms="42" started-at="2016-12-09T11:14:42Z" finished-at="2016-12-09T11:14:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.usual.LandingPage5Test@6b143ee9]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-12-09T11:14:43Z" finished-at="2016-12-09T11:14:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="canRegisterUsualWithCurrencyUsdAnd100Bonus()[pri:0, instance:test.usual.LandingPage5Test@6b143ee9]" name="canRegisterUsualWithCurrencyUsdAnd100Bonus" duration-ms="2905" started-at="2016-12-09T11:14:43Z" finished-at="2016-12-09T11:14:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canRegisterUsualWithCurrencyUsdAnd100Bonus -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.usual.LandingPage5Test@6b143ee9]" name="afterMethod" is-config="true" duration-ms="45" started-at="2016-12-09T11:14:45Z" finished-at="2016-12-09T11:14:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.usual.LandingPage5Test@6b143ee9]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-12-09T11:14:45Z" finished-at="2016-12-09T11:14:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="tryRegisterWithEmptyFields()[pri:0, instance:test.usual.LandingPage5Test@6b143ee9]" name="tryRegisterWithEmptyFields" duration-ms="1457" started-at="2016-12-09T11:14:45Z" finished-at="2016-12-09T11:14:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tryRegisterWithEmptyFields -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.usual.LandingPage5Test@6b143ee9]" name="afterMethod" is-config="true" duration-ms="37" started-at="2016-12-09T11:14:47Z" finished-at="2016-12-09T11:14:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.usual.LandingPage5Test@6b143ee9]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-12-09T11:14:47Z" finished-at="2016-12-09T11:14:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="tryRegisterWithOutAgree()[pri:0, instance:test.usual.LandingPage5Test@6b143ee9]" name="tryRegisterWithOutAgree" duration-ms="1097" started-at="2016-12-09T11:14:47Z" finished-at="2016-12-09T11:14:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tryRegisterWithOutAgree -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.usual.LandingPage5Test@6b143ee9]" name="afterMethod" is-config="true" duration-ms="63" started-at="2016-12-09T11:14:48Z" finished-at="2016-12-09T11:14:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:test.usual.LandingPage5Test@6b143ee9]" name="afterClass" is-config="true" duration-ms="750" started-at="2016-12-09T11:14:48Z" finished-at="2016-12-09T11:14:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- test.usual.LandingPage5Test -->
+      <class name="test.usual.LandingPage1Test">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test.usual.LandingPage1Test@4909b8da]" name="beforeClass" is-config="true" duration-ms="3075" started-at="2016-12-09T11:12:48Z" finished-at="2016-12-09T11:12:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.usual.LandingPage1Test@4909b8da]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2016-12-09T11:12:51Z" finished-at="2016-12-09T11:12:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="canRegisterUsualWithCurrencyRubWithWelcomeGift()[pri:0, instance:test.usual.LandingPage1Test@4909b8da]" name="canRegisterUsualWithCurrencyRubWithWelcomeGift" duration-ms="9091" started-at="2016-12-09T11:12:51Z" finished-at="2016-12-09T11:13:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canRegisterUsualWithCurrencyRubWithWelcomeGift -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.usual.LandingPage1Test@4909b8da]" name="afterMethod" is-config="true" duration-ms="44" started-at="2016-12-09T11:13:00Z" finished-at="2016-12-09T11:13:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tryRegisterWithInvalidCredentials(java.lang.String, java.lang.String)[pri:0, instance:test.usual.LandingPage1Test@4909b8da]" name="tryRegisterWithInvalidCredentials" duration-ms="1309" started-at="2016-12-09T11:13:00Z" data-provider="wrongEmailAndPassword" finished-at="2016-12-09T11:13:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dt+29463]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4L)6!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tryRegisterWithInvalidCredentials -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.usual.LandingPage1Test@4909b8da]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-12-09T11:13:00Z" finished-at="2016-12-09T11:13:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.usual.LandingPage1Test@4909b8da]" name="afterMethod" is-config="true" duration-ms="42" started-at="2016-12-09T11:13:02Z" finished-at="2016-12-09T11:13:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.usual.LandingPage1Test@4909b8da]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-12-09T11:13:02Z" finished-at="2016-12-09T11:13:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="tryRegisterWithInvalidCredentials(java.lang.String, java.lang.String)[pri:0, instance:test.usual.LandingPage1Test@4909b8da]" name="tryRegisterWithInvalidCredentials" duration-ms="1218" started-at="2016-12-09T11:13:02Z" data-provider="wrongEmailAndPassword" finished-at="2016-12-09T11:13:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dhgh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[fdgfdgdf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tryRegisterWithInvalidCredentials -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.usual.LandingPage1Test@4909b8da]" name="afterMethod" is-config="true" duration-ms="49" started-at="2016-12-09T11:13:03Z" finished-at="2016-12-09T11:13:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.usual.LandingPage1Test@4909b8da]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-12-09T11:13:03Z" finished-at="2016-12-09T11:13:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="canRegisterUsualWithCurrencyUsdWithWelcomeGift()[pri:0, instance:test.usual.LandingPage1Test@4909b8da]" name="canRegisterUsualWithCurrencyUsdWithWelcomeGift" duration-ms="3367" started-at="2016-12-09T11:13:03Z" finished-at="2016-12-09T11:13:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canRegisterUsualWithCurrencyUsdWithWelcomeGift -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.usual.LandingPage1Test@4909b8da]" name="afterMethod" is-config="true" duration-ms="43" started-at="2016-12-09T11:13:06Z" finished-at="2016-12-09T11:13:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.usual.LandingPage1Test@4909b8da]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-12-09T11:13:06Z" finished-at="2016-12-09T11:13:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="tryRegisterWithEmptyFields()[pri:0, instance:test.usual.LandingPage1Test@4909b8da]" name="tryRegisterWithEmptyFields" duration-ms="1498" started-at="2016-12-09T11:13:06Z" finished-at="2016-12-09T11:13:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tryRegisterWithEmptyFields -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.usual.LandingPage1Test@4909b8da]" name="afterMethod" is-config="true" duration-ms="43" started-at="2016-12-09T11:13:08Z" finished-at="2016-12-09T11:13:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.usual.LandingPage1Test@4909b8da]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2016-12-09T11:13:08Z" finished-at="2016-12-09T11:13:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="tryRegisterWithOutAgree()[pri:0, instance:test.usual.LandingPage1Test@4909b8da]" name="tryRegisterWithOutAgree" duration-ms="1523" started-at="2016-12-09T11:13:08Z" finished-at="2016-12-09T11:13:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tryRegisterWithOutAgree -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.usual.LandingPage1Test@4909b8da]" name="afterMethod" is-config="true" duration-ms="50" started-at="2016-12-09T11:13:10Z" finished-at="2016-12-09T11:13:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:test.usual.LandingPage1Test@4909b8da]" name="afterClass" is-config="true" duration-ms="721" started-at="2016-12-09T11:13:10Z" finished-at="2016-12-09T11:13:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- test.usual.LandingPage1Test -->
+    </test> <!-- Regression -->
+  </suite> <!-- Suite1 -->
+</testng-results>

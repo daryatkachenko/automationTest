@@ -1,0 +1,504 @@
+<html>
+<head>
+<title>TestNG:  Regression</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Regression</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>85/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Dec 09 11:11:30 EET 2016</td>
+</tr>
+<tr><td>Total time:</td><td>280 seconds (280660 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test.usual.LandingPage11Test.canChooseBonusAfterRegisterUsd()'><b>canChooseBonusAfterRegisterUsd</b><br>Test class: test.usual.LandingPage11Test</td>
+<td></td>
+<td>6</td>
+<td>test.usual.LandingPage11Test@47f6473</td></tr>
+<tr>
+<td title='test.usual.LandingPage11Test.canChooseBonusAndRegisterRub()'><b>canChooseBonusAndRegisterRub</b><br>Test class: test.usual.LandingPage11Test</td>
+<td></td>
+<td>2</td>
+<td>test.usual.LandingPage11Test@47f6473</td></tr>
+<tr>
+<td title='test.usual.LandingPage11Test.canChooseBonusAndRegisterUsd()'><b>canChooseBonusAndRegisterUsd</b><br>Test class: test.usual.LandingPage11Test</td>
+<td></td>
+<td>1</td>
+<td>test.usual.LandingPage11Test@47f6473</td></tr>
+<tr>
+<td title='test.usual.LandingPage5Test.canClickOnButtonPlay()'><b>canClickOnButtonPlay</b><br>Test class: test.usual.LandingPage5Test</td>
+<td></td>
+<td>0</td>
+<td>test.usual.LandingPage5Test@6b143ee9</td></tr>
+<tr>
+<td title='test.usual.LandingPage5Test.canClickOnButtonRegistration()'><b>canClickOnButtonRegistration</b><br>Test class: test.usual.LandingPage5Test</td>
+<td></td>
+<td>0</td>
+<td>test.usual.LandingPage5Test@6b143ee9</td></tr>
+<tr>
+<td title='test.moilogin.LandingPageFbTest.canOpenFb()'><b>canOpenFb</b><br>Test class: test.moilogin.LandingPageFbTest</td>
+<td></td>
+<td>3</td>
+<td>test.moilogin.LandingPageFbTest@617c74e5</td></tr>
+<tr>
+<td title='test.usual.LandingPage2Test.canOpenLandingPage2()'><b>canOpenLandingPage2</b><br>Test class: test.usual.LandingPage2Test</td>
+<td></td>
+<td>1</td>
+<td>test.usual.LandingPage2Test@67b6d4ae</td></tr>
+<tr>
+<td title='test.usual.LandingPage6Test.canOpenLandingPage6()'><b>canOpenLandingPage6</b><br>Test class: test.usual.LandingPage6Test</td>
+<td></td>
+<td>1</td>
+<td>test.usual.LandingPage6Test@327471b5</td></tr>
+<tr>
+<td title='test.usual.LandingPage9Test.canOpenLandingPage9()'><b>canOpenLandingPage9</b><br>Test class: test.usual.LandingPage9Test</td>
+<td></td>
+<td>2</td>
+<td>test.usual.LandingPage9Test@4157f54e</td></tr>
+<tr>
+<td title='test.moilogin.LandingPageMrTest.canOpenMailRu()'><b>canOpenMailRu</b><br>Test class: test.moilogin.LandingPageMrTest</td>
+<td></td>
+<td>2</td>
+<td>test.moilogin.LandingPageMrTest@3a03464</td></tr>
+<tr>
+<td title='test.moilogin.LandingPageOkTest.canOpenOk()'><b>canOpenOk</b><br>Test class: test.moilogin.LandingPageOkTest</td>
+<td></td>
+<td>3</td>
+<td>test.moilogin.LandingPageOkTest@15975490</td></tr>
+<tr>
+<td title='test.moilogin.LandingPageVkTest.canOpenVk()'><b>canOpenVk</b><br>Test class: test.moilogin.LandingPageVkTest</td>
+<td></td>
+<td>3</td>
+<td>test.moilogin.LandingPageVkTest@6615435c</td></tr>
+<tr>
+<td title='test.moilogin.LandingPageYaTest.canOpenYandex()'><b>canOpenYandex</b><br>Test class: test.moilogin.LandingPageYaTest</td>
+<td></td>
+<td>3</td>
+<td>test.moilogin.LandingPageYaTest@6df97b55</td></tr>
+<tr>
+<td title='test.usual.LandingPage9Test.canRegisterUsualWithCurrencyRub()'><b>canRegisterUsualWithCurrencyRub</b><br>Test class: test.usual.LandingPage9Test</td>
+<td></td>
+<td>7</td>
+<td>test.usual.LandingPage9Test@4157f54e</td></tr>
+<tr>
+<td title='test.usual.LandingPage10Test.canRegisterUsualWithCurrencyRubAnd100Bonus()'><b>canRegisterUsualWithCurrencyRubAnd100Bonus</b><br>Test class: test.usual.LandingPage10Test</td>
+<td></td>
+<td>9</td>
+<td>test.usual.LandingPage10Test@1936f0f5</td></tr>
+<tr>
+<td title='test.usual.LandingPage5Test.canRegisterUsualWithCurrencyRubAnd100Bonus()'><b>canRegisterUsualWithCurrencyRubAnd100Bonus</b><br>Test class: test.usual.LandingPage5Test</td>
+<td></td>
+<td>8</td>
+<td>test.usual.LandingPage5Test@6b143ee9</td></tr>
+<tr>
+<td title='test.usual.LandingPage6Test.canRegisterUsualWithCurrencyRubAnd100Bonus()'><b>canRegisterUsualWithCurrencyRubAnd100Bonus</b><br>Test class: test.usual.LandingPage6Test</td>
+<td></td>
+<td>9</td>
+<td>test.usual.LandingPage6Test@327471b5</td></tr>
+<tr>
+<td title='test.usual.LandingPage1Test.canRegisterUsualWithCurrencyRubWithWelcomeGift()'><b>canRegisterUsualWithCurrencyRubWithWelcomeGift</b><br>Test class: test.usual.LandingPage1Test</td>
+<td></td>
+<td>9</td>
+<td>test.usual.LandingPage1Test@4909b8da</td></tr>
+<tr>
+<td title='test.usual.LandingPage2Test.canRegisterUsualWithCurrencyRubWithWelcomeGift()'><b>canRegisterUsualWithCurrencyRubWithWelcomeGift</b><br>Test class: test.usual.LandingPage2Test</td>
+<td></td>
+<td>7</td>
+<td>test.usual.LandingPage2Test@67b6d4ae</td></tr>
+<tr>
+<td title='test.usual.LandingPage3Test.canRegisterUsualWithCurrencyRubWithWelcomeGift()'><b>canRegisterUsualWithCurrencyRubWithWelcomeGift</b><br>Test class: test.usual.LandingPage3Test</td>
+<td></td>
+<td>8</td>
+<td>test.usual.LandingPage3Test@366e2eef</td></tr>
+<tr>
+<td title='test.usual.LandingPage4Test.canRegisterUsualWithCurrencyRubWithWelcomeGift()'><b>canRegisterUsualWithCurrencyRubWithWelcomeGift</b><br>Test class: test.usual.LandingPage4Test</td>
+<td></td>
+<td>9</td>
+<td>test.usual.LandingPage4Test@2d3fcdbd</td></tr>
+<tr>
+<td title='test.usual.LandingPage10Test.canRegisterUsualWithCurrencyUsdAnd100Bonus()'><b>canRegisterUsualWithCurrencyUsdAnd100Bonus</b><br>Test class: test.usual.LandingPage10Test</td>
+<td></td>
+<td>2</td>
+<td>test.usual.LandingPage10Test@1936f0f5</td></tr>
+<tr>
+<td title='test.usual.LandingPage5Test.canRegisterUsualWithCurrencyUsdAnd100Bonus()'><b>canRegisterUsualWithCurrencyUsdAnd100Bonus</b><br>Test class: test.usual.LandingPage5Test</td>
+<td></td>
+<td>2</td>
+<td>test.usual.LandingPage5Test@6b143ee9</td></tr>
+<tr>
+<td title='test.usual.LandingPage6Test.canRegisterUsualWithCurrencyUsdAnd100Bonus()'><b>canRegisterUsualWithCurrencyUsdAnd100Bonus</b><br>Test class: test.usual.LandingPage6Test</td>
+<td></td>
+<td>2</td>
+<td>test.usual.LandingPage6Test@327471b5</td></tr>
+<tr>
+<td title='test.usual.LandingPage9Test.canRegisterUsualWithCurrencyUsdAnd100Bonus()'><b>canRegisterUsualWithCurrencyUsdAnd100Bonus</b><br>Test class: test.usual.LandingPage9Test</td>
+<td></td>
+<td>2</td>
+<td>test.usual.LandingPage9Test@4157f54e</td></tr>
+<tr>
+<td title='test.usual.LandingPage1Test.canRegisterUsualWithCurrencyUsdWithWelcomeGift()'><b>canRegisterUsualWithCurrencyUsdWithWelcomeGift</b><br>Test class: test.usual.LandingPage1Test</td>
+<td></td>
+<td>3</td>
+<td>test.usual.LandingPage1Test@4909b8da</td></tr>
+<tr>
+<td title='test.usual.LandingPage2Test.canRegisterUsualWithCurrencyUsdWithWelcomeGift()'><b>canRegisterUsualWithCurrencyUsdWithWelcomeGift</b><br>Test class: test.usual.LandingPage2Test</td>
+<td></td>
+<td>3</td>
+<td>test.usual.LandingPage2Test@67b6d4ae</td></tr>
+<tr>
+<td title='test.usual.LandingPage3Test.canRegisterUsualWithCurrencyUsdWithWelcomeGift()'><b>canRegisterUsualWithCurrencyUsdWithWelcomeGift</b><br>Test class: test.usual.LandingPage3Test</td>
+<td></td>
+<td>2</td>
+<td>test.usual.LandingPage3Test@366e2eef</td></tr>
+<tr>
+<td title='test.usual.LandingPage4Test.canRegisterUsualWithCurrencyUsdWithWelcomeGift()'><b>canRegisterUsualWithCurrencyUsdWithWelcomeGift</b><br>Test class: test.usual.LandingPage4Test</td>
+<td></td>
+<td>2</td>
+<td>test.usual.LandingPage4Test@2d3fcdbd</td></tr>
+<tr>
+<td title='test.usual.LandingPage12Test.canRegisterWithUsualRubWithValidCredentialsAnd100Bonus()'><b>canRegisterWithUsualRubWithValidCredentialsAnd100Bonus</b><br>Test class: test.usual.LandingPage12Test</td>
+<td></td>
+<td>7</td>
+<td>test.usual.LandingPage12Test@34b7bfc0</td></tr>
+<tr>
+<td title='test.usual.LandingPage8Test.canRegisterWithUsualRubWithValidCredentialsAnd100Bonus()'><b>canRegisterWithUsualRubWithValidCredentialsAnd100Bonus</b><br>Test class: test.usual.LandingPage8Test</td>
+<td></td>
+<td>7</td>
+<td>test.usual.LandingPage8Test@62043840</td></tr>
+<tr>
+<td title='test.usual.LandingPage12Test.canRegisterWithUsualUsdWithValidCredentialsAnd100Bonus()'><b>canRegisterWithUsualUsdWithValidCredentialsAnd100Bonus</b><br>Test class: test.usual.LandingPage12Test</td>
+<td></td>
+<td>2</td>
+<td>test.usual.LandingPage12Test@34b7bfc0</td></tr>
+<tr>
+<td title='test.usual.LandingPage8Test.canRegisterWithUsualUsdWithValidCredentialsAnd100Bonus()'><b>canRegisterWithUsualUsdWithValidCredentialsAnd100Bonus</b><br>Test class: test.usual.LandingPage8Test</td>
+<td></td>
+<td>2</td>
+<td>test.usual.LandingPage8Test@62043840</td></tr>
+<tr>
+<td title='test.usual.LandingPage7Test.canRegisterWithUsualWithValidCredentialsAnd100Bonus()'><b>canRegisterWithUsualWithValidCredentialsAnd100Bonus</b><br>Test class: test.usual.LandingPage7Test</td>
+<td></td>
+<td>8</td>
+<td>test.usual.LandingPage7Test@6537cf78</td></tr>
+<tr>
+<td title='test.usual.LandingPage7Test.canRegisterWithUsualWithValidCredentialsAndCashBack()'><b>canRegisterWithUsualWithValidCredentialsAndCashBack</b><br>Test class: test.usual.LandingPage7Test</td>
+<td></td>
+<td>2</td>
+<td>test.usual.LandingPage7Test@6537cf78</td></tr>
+<tr>
+<td title='test.usual.LandingPage12Test.canRegisterWithUsualWithValidCredentialsWithOutBonus()'><b>canRegisterWithUsualWithValidCredentialsWithOutBonus</b><br>Test class: test.usual.LandingPage12Test</td>
+<td></td>
+<td>1</td>
+<td>test.usual.LandingPage12Test@34b7bfc0</td></tr>
+<tr>
+<td title='test.usual.LandingPage7Test.canRegisterWithUsualWithValidCredentialsWithOutBonus()'><b>canRegisterWithUsualWithValidCredentialsWithOutBonus</b><br>Test class: test.usual.LandingPage7Test</td>
+<td></td>
+<td>1</td>
+<td>test.usual.LandingPage7Test@6537cf78</td></tr>
+<tr>
+<td title='test.usual.LandingPage2Test.tryRegisterWitInvalidCredentials()'><b>tryRegisterWitInvalidCredentials</b><br>Test class: test.usual.LandingPage2Test<br>Parameters: dt+38631, $9#}&</td>
+<td></td>
+<td>1</td>
+<td>test.usual.LandingPage2Test@67b6d4ae</td></tr>
+<tr>
+<td title='test.usual.LandingPage2Test.tryRegisterWitInvalidCredentials()'><b>tryRegisterWitInvalidCredentials</b><br>Test class: test.usual.LandingPage2Test<br>Parameters: aLJEcy, 250202</td>
+<td></td>
+<td>1</td>
+<td>test.usual.LandingPage2Test@67b6d4ae</td></tr>
+<tr>
+<td title='test.usual.LandingPage3Test.tryRegisterWitInvalidCredentials()'><b>tryRegisterWitInvalidCredentials</b><br>Test class: test.usual.LandingPage3Test<br>Parameters: dt+42049, %nxFk</td>
+<td></td>
+<td>1</td>
+<td>test.usual.LandingPage3Test@366e2eef</td></tr>
+<tr>
+<td title='test.usual.LandingPage3Test.tryRegisterWitInvalidCredentials()'><b>tryRegisterWitInvalidCredentials</b><br>Test class: test.usual.LandingPage3Test<br>Parameters: FtAJip, 633371</td>
+<td></td>
+<td>0</td>
+<td>test.usual.LandingPage3Test@366e2eef</td></tr>
+<tr>
+<td title='test.usual.LandingPage10Test.tryRegisterWithEmptyFields()'><b>tryRegisterWithEmptyFields</b><br>Test class: test.usual.LandingPage10Test</td>
+<td></td>
+<td>0</td>
+<td>test.usual.LandingPage10Test@1936f0f5</td></tr>
+<tr>
+<td title='test.usual.LandingPage11Test.tryRegisterWithEmptyFields()'><b>tryRegisterWithEmptyFields</b><br>Test class: test.usual.LandingPage11Test</td>
+<td></td>
+<td>0</td>
+<td>test.usual.LandingPage11Test@47f6473</td></tr>
+<tr>
+<td title='test.usual.LandingPage12Test.tryRegisterWithEmptyFields()'><b>tryRegisterWithEmptyFields</b><br>Test class: test.usual.LandingPage12Test</td>
+<td></td>
+<td>1</td>
+<td>test.usual.LandingPage12Test@34b7bfc0</td></tr>
+<tr>
+<td title='test.usual.LandingPage1Test.tryRegisterWithEmptyFields()'><b>tryRegisterWithEmptyFields</b><br>Test class: test.usual.LandingPage1Test</td>
+<td></td>
+<td>1</td>
+<td>test.usual.LandingPage1Test@4909b8da</td></tr>
+<tr>
+<td title='test.usual.LandingPage2Test.tryRegisterWithEmptyFields()'><b>tryRegisterWithEmptyFields</b><br>Test class: test.usual.LandingPage2Test</td>
+<td></td>
+<td>1</td>
+<td>test.usual.LandingPage2Test@67b6d4ae</td></tr>
+<tr>
+<td title='test.usual.LandingPage3Test.tryRegisterWithEmptyFields()'><b>tryRegisterWithEmptyFields</b><br>Test class: test.usual.LandingPage3Test</td>
+<td></td>
+<td>0</td>
+<td>test.usual.LandingPage3Test@366e2eef</td></tr>
+<tr>
+<td title='test.usual.LandingPage4Test.tryRegisterWithEmptyFields()'><b>tryRegisterWithEmptyFields</b><br>Test class: test.usual.LandingPage4Test</td>
+<td></td>
+<td>1</td>
+<td>test.usual.LandingPage4Test@2d3fcdbd</td></tr>
+<tr>
+<td title='test.usual.LandingPage5Test.tryRegisterWithEmptyFields()'><b>tryRegisterWithEmptyFields</b><br>Test class: test.usual.LandingPage5Test</td>
+<td></td>
+<td>1</td>
+<td>test.usual.LandingPage5Test@6b143ee9</td></tr>
+<tr>
+<td title='test.usual.LandingPage6Test.tryRegisterWithEmptyFields()'><b>tryRegisterWithEmptyFields</b><br>Test class: test.usual.LandingPage6Test</td>
+<td></td>
+<td>0</td>
+<td>test.usual.LandingPage6Test@327471b5</td></tr>
+<tr>
+<td title='test.usual.LandingPage7Test.tryRegisterWithEmptyFields()'><b>tryRegisterWithEmptyFields</b><br>Test class: test.usual.LandingPage7Test</td>
+<td></td>
+<td>0</td>
+<td>test.usual.LandingPage7Test@6537cf78</td></tr>
+<tr>
+<td title='test.usual.LandingPage8Test.tryRegisterWithEmptyFields()'><b>tryRegisterWithEmptyFields</b><br>Test class: test.usual.LandingPage8Test</td>
+<td></td>
+<td>0</td>
+<td>test.usual.LandingPage8Test@62043840</td></tr>
+<tr>
+<td title='test.usual.LandingPage9Test.tryRegisterWithEmptyFields()'><b>tryRegisterWithEmptyFields</b><br>Test class: test.usual.LandingPage9Test</td>
+<td></td>
+<td>0</td>
+<td>test.usual.LandingPage9Test@4157f54e</td></tr>
+<tr>
+<td title='test.usual.LandingPage10Test.tryRegisterWithInValidCredentials()'><b>tryRegisterWithInValidCredentials</b><br>Test class: test.usual.LandingPage10Test<br>Parameters: dt+07809, +Q3C|</td>
+<td></td>
+<td>1</td>
+<td>test.usual.LandingPage10Test@1936f0f5</td></tr>
+<tr>
+<td title='test.usual.LandingPage10Test.tryRegisterWithInValidCredentials()'><b>tryRegisterWithInValidCredentials</b><br>Test class: test.usual.LandingPage10Test<br>Parameters: zyBuFQ, 215542</td>
+<td></td>
+<td>0</td>
+<td>test.usual.LandingPage10Test@1936f0f5</td></tr>
+<tr>
+<td title='test.usual.LandingPage11Test.tryRegisterWithInValidCredentials()'><b>tryRegisterWithInValidCredentials</b><br>Test class: test.usual.LandingPage11Test<br>Parameters: dt+42778, yZK{p</td>
+<td></td>
+<td>0</td>
+<td>test.usual.LandingPage11Test@47f6473</td></tr>
+<tr>
+<td title='test.usual.LandingPage11Test.tryRegisterWithInValidCredentials()'><b>tryRegisterWithInValidCredentials</b><br>Test class: test.usual.LandingPage11Test<br>Parameters: vdUizl@, 313391</td>
+<td></td>
+<td>0</td>
+<td>test.usual.LandingPage11Test@47f6473</td></tr>
+<tr>
+<td title='test.usual.LandingPage12Test.tryRegisterWithInValidCredentials()'><b>tryRegisterWithInValidCredentials</b><br>Test class: test.usual.LandingPage12Test<br>Parameters: dt+54911, o1"9.</td>
+<td></td>
+<td>1</td>
+<td>test.usual.LandingPage12Test@34b7bfc0</td></tr>
+<tr>
+<td title='test.usual.LandingPage12Test.tryRegisterWithInValidCredentials()'><b>tryRegisterWithInValidCredentials</b><br>Test class: test.usual.LandingPage12Test<br>Parameters: Lqmacr, 257152</td>
+<td></td>
+<td>0</td>
+<td>test.usual.LandingPage12Test@34b7bfc0</td></tr>
+<tr>
+<td title='test.usual.LandingPage5Test.tryRegisterWithInValidCredentials()'><b>tryRegisterWithInValidCredentials</b><br>Test class: test.usual.LandingPage5Test<br>Parameters: dt+69259, ,qi:x</td>
+<td></td>
+<td>1</td>
+<td>test.usual.LandingPage5Test@6b143ee9</td></tr>
+<tr>
+<td title='test.usual.LandingPage5Test.tryRegisterWithInValidCredentials()'><b>tryRegisterWithInValidCredentials</b><br>Test class: test.usual.LandingPage5Test<br>Parameters: AWSTEL, 636137</td>
+<td></td>
+<td>1</td>
+<td>test.usual.LandingPage5Test@6b143ee9</td></tr>
+<tr>
+<td title='test.usual.LandingPage6Test.tryRegisterWithInValidCredentials()'><b>tryRegisterWithInValidCredentials</b><br>Test class: test.usual.LandingPage6Test<br>Parameters: dt+12002, L8"RA</td>
+<td></td>
+<td>0</td>
+<td>test.usual.LandingPage6Test@327471b5</td></tr>
+<tr>
+<td title='test.usual.LandingPage6Test.tryRegisterWithInValidCredentials()'><b>tryRegisterWithInValidCredentials</b><br>Test class: test.usual.LandingPage6Test<br>Parameters: lbJOWI, 564347</td>
+<td></td>
+<td>0</td>
+<td>test.usual.LandingPage6Test@327471b5</td></tr>
+<tr>
+<td title='test.usual.LandingPage7Test.tryRegisterWithInValidCredentials()'><b>tryRegisterWithInValidCredentials</b><br>Test class: test.usual.LandingPage7Test<br>Parameters: dt+96607, u(984</td>
+<td></td>
+<td>1</td>
+<td>test.usual.LandingPage7Test@6537cf78</td></tr>
+<tr>
+<td title='test.usual.LandingPage7Test.tryRegisterWithInValidCredentials()'><b>tryRegisterWithInValidCredentials</b><br>Test class: test.usual.LandingPage7Test<br>Parameters: eICRBO, 688177</td>
+<td></td>
+<td>0</td>
+<td>test.usual.LandingPage7Test@6537cf78</td></tr>
+<tr>
+<td title='test.usual.LandingPage8Test.tryRegisterWithInValidCredentials()'><b>tryRegisterWithInValidCredentials</b><br>Test class: test.usual.LandingPage8Test<br>Parameters: dt+31952, E-4jh</td>
+<td></td>
+<td>1</td>
+<td>test.usual.LandingPage8Test@62043840</td></tr>
+<tr>
+<td title='test.usual.LandingPage8Test.tryRegisterWithInValidCredentials()'><b>tryRegisterWithInValidCredentials</b><br>Test class: test.usual.LandingPage8Test<br>Parameters: ZUHNDO, 159032</td>
+<td></td>
+<td>0</td>
+<td>test.usual.LandingPage8Test@62043840</td></tr>
+<tr>
+<td title='test.usual.LandingPage9Test.tryRegisterWithInValidCredentials()'><b>tryRegisterWithInValidCredentials</b><br>Test class: test.usual.LandingPage9Test<br>Parameters: dt+37916, l3s;+</td>
+<td></td>
+<td>0</td>
+<td>test.usual.LandingPage9Test@4157f54e</td></tr>
+<tr>
+<td title='test.usual.LandingPage9Test.tryRegisterWithInValidCredentials()'><b>tryRegisterWithInValidCredentials</b><br>Test class: test.usual.LandingPage9Test<br>Parameters: kObPio, 079537</td>
+<td></td>
+<td>0</td>
+<td>test.usual.LandingPage9Test@4157f54e</td></tr>
+<tr>
+<td title='test.usual.LandingPage1Test.tryRegisterWithInvalidCredentials()'><b>tryRegisterWithInvalidCredentials</b><br>Test class: test.usual.LandingPage1Test<br>Parameters: dt+29463, 4L)6!</td>
+<td></td>
+<td>1</td>
+<td>test.usual.LandingPage1Test@4909b8da</td></tr>
+<tr>
+<td title='test.usual.LandingPage1Test.tryRegisterWithInvalidCredentials()'><b>tryRegisterWithInvalidCredentials</b><br>Test class: test.usual.LandingPage1Test<br>Parameters: dhgh, fdgfdgdf</td>
+<td></td>
+<td>1</td>
+<td>test.usual.LandingPage1Test@4909b8da</td></tr>
+<tr>
+<td title='test.usual.LandingPage4Test.tryRegisterWithInvalidCredentials()'><b>tryRegisterWithInvalidCredentials</b><br>Test class: test.usual.LandingPage4Test<br>Parameters: dt+08083, &*!{.</td>
+<td></td>
+<td>1</td>
+<td>test.usual.LandingPage4Test@2d3fcdbd</td></tr>
+<tr>
+<td title='test.usual.LandingPage4Test.tryRegisterWithInvalidCredentials()'><b>tryRegisterWithInvalidCredentials</b><br>Test class: test.usual.LandingPage4Test<br>Parameters: rRssaU, 245365</td>
+<td></td>
+<td>0</td>
+<td>test.usual.LandingPage4Test@2d3fcdbd</td></tr>
+<tr>
+<td title='test.usual.LandingPage10Test.tryRegisterWithOutAgree()'><b>tryRegisterWithOutAgree</b><br>Test class: test.usual.LandingPage10Test</td>
+<td></td>
+<td>0</td>
+<td>test.usual.LandingPage10Test@1936f0f5</td></tr>
+<tr>
+<td title='test.usual.LandingPage11Test.tryRegisterWithOutAgree()'><b>tryRegisterWithOutAgree</b><br>Test class: test.usual.LandingPage11Test</td>
+<td></td>
+<td>0</td>
+<td>test.usual.LandingPage11Test@47f6473</td></tr>
+<tr>
+<td title='test.usual.LandingPage12Test.tryRegisterWithOutAgree()'><b>tryRegisterWithOutAgree</b><br>Test class: test.usual.LandingPage12Test</td>
+<td></td>
+<td>1</td>
+<td>test.usual.LandingPage12Test@34b7bfc0</td></tr>
+<tr>
+<td title='test.usual.LandingPage1Test.tryRegisterWithOutAgree()'><b>tryRegisterWithOutAgree</b><br>Test class: test.usual.LandingPage1Test</td>
+<td></td>
+<td>1</td>
+<td>test.usual.LandingPage1Test@4909b8da</td></tr>
+<tr>
+<td title='test.usual.LandingPage2Test.tryRegisterWithOutAgree()'><b>tryRegisterWithOutAgree</b><br>Test class: test.usual.LandingPage2Test</td>
+<td></td>
+<td>1</td>
+<td>test.usual.LandingPage2Test@67b6d4ae</td></tr>
+<tr>
+<td title='test.usual.LandingPage3Test.tryRegisterWithOutAgree()'><b>tryRegisterWithOutAgree</b><br>Test class: test.usual.LandingPage3Test</td>
+<td></td>
+<td>0</td>
+<td>test.usual.LandingPage3Test@366e2eef</td></tr>
+<tr>
+<td title='test.usual.LandingPage4Test.tryRegisterWithOutAgree()'><b>tryRegisterWithOutAgree</b><br>Test class: test.usual.LandingPage4Test</td>
+<td></td>
+<td>0</td>
+<td>test.usual.LandingPage4Test@2d3fcdbd</td></tr>
+<tr>
+<td title='test.usual.LandingPage5Test.tryRegisterWithOutAgree()'><b>tryRegisterWithOutAgree</b><br>Test class: test.usual.LandingPage5Test</td>
+<td></td>
+<td>1</td>
+<td>test.usual.LandingPage5Test@6b143ee9</td></tr>
+<tr>
+<td title='test.usual.LandingPage6Test.tryRegisterWithOutAgree()'><b>tryRegisterWithOutAgree</b><br>Test class: test.usual.LandingPage6Test</td>
+<td></td>
+<td>0</td>
+<td>test.usual.LandingPage6Test@327471b5</td></tr>
+<tr>
+<td title='test.usual.LandingPage7Test.tryRegisterWithOutAgree()'><b>tryRegisterWithOutAgree</b><br>Test class: test.usual.LandingPage7Test</td>
+<td></td>
+<td>1</td>
+<td>test.usual.LandingPage7Test@6537cf78</td></tr>
+<tr>
+<td title='test.usual.LandingPage8Test.tryRegisterWithOutAgree()'><b>tryRegisterWithOutAgree</b><br>Test class: test.usual.LandingPage8Test</td>
+<td></td>
+<td>1</td>
+<td>test.usual.LandingPage8Test@62043840</td></tr>
+<tr>
+<td title='test.usual.LandingPage9Test.tryRegisterWithOutAgree()'><b>tryRegisterWithOutAgree</b><br>Test class: test.usual.LandingPage9Test</td>
+<td></td>
+<td>0</td>
+<td>test.usual.LandingPage9Test@4157f54e</td></tr>
+</table><p>
+</body>
+</html>
